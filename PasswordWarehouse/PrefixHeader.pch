@@ -1,0 +1,96 @@
+//
+//  PrefixHeader.pch
+//  PasswordWarehouse
+//
+//  Created by NN on 2018/12/27.
+//  Copyright © 2018 WeiSen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+
+#import <Masonry/Masonry.h>
+#import <MJRefresh/MJRefresh.h>
+#import <FMDB/FMDB.h>
+#import <BlocksKit/UIView+BlocksKit.h>
+#import <Toast/Toast.h>
+#import "WSConfigeManager.h"
+#import "DBManager.h"
+#import "WSTouchIDUtil.h"
+#import "NSObject+WSRequestData.h"
+#import "UIView+Category.h"
+#import "NSDictionary+Category.h"
+
+
+#define URLPREFIX               @"http://47.107.131.153:12345"
+#define URLMake(path)           [NSURL URLWithString:[URLPREFIX stringByAppendingString:path]]
+
+//获取RGB颜色
+#define COLOUR_THEME           HexColor(0x1296db)
+#define HexColor(c) [UIColor colorWithRed:((c>>16)&0xFF)/255.0f green:((c>>8)&0xFF)/255.0f blue:(c&0xFF)/255.0f alpha:1.0f]
+#define HexColorA(c, a) [UIColor colorWithRed:((c>>16)&0xFF)/255.0f green:((c>>8)&0xFF)/255.0f blue:(c&0xFF)/255.0f alpha:a]
+#define HexColorString(rgbValue) [UIColor colorWithRed:((float)((strtoul(((NSString *)rgbValue).UTF8String, 0, 16) & 0xFF0000) >> 16))/255.0 green:((float)((strtoul(((NSString *)rgbValue).UTF8String, 0, 16) & 0xFF00) >> 8))/255.0 blue:((float)(strtoul(((NSString *)rgbValue).UTF8String, 0, 16) & 0xFF))/255.0 alpha:1.0]
+#define HexColorStringForWeb(rgbValue) HexColorString([rgbValue stringByReplacingOccurrencesOfString:@"#" withString:@""])
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define COLOR_BG                [UIColor colorWithRed:250 / 255.0 green:250/255.0 blue:250 / 255.0 alpha:1]
+#define COLOR_MASK              RGBA(0, 0, 0, 0.5)
+#define COLOR_000               HexColor(0x000000)
+#define COLOR_333               HexColor(0x333333)
+#define COLOR_666               HexColor(0x666666)
+#define COLOR_999               HexColor(0x999999)
+#define COLOR_DDD               HexColor(0xDDDDDD)
+#define COLOR_EEE               HexColor(0xEEEEEE)
+#define COLOR_FFF               HexColor(0xFFFFFF)
+#define COLOR_981F89            HexColor(0x981F89)
+#define COLOR_D1D1D1            HexColor(0xD1D1D1)
+#define COLOR_EBEBEB            HexColor(0xEBEBEB)
+#define COLOR_FD3E3D            HexColor(0xFD3E3D)
+#define COLOR_F1EEEF            HexColor(0xF1EEEF)
+#define COLOR_323232            HexColor(0x323232)
+#define COLOR_E6E6E6            HexColor(0xE6E6E6
+#define COLOR_RANDOM            [UIColor colorWithRed:(arc4random() % 255) / 255.0 green:(arc4random() % 255) / 255.0 blue:(arc4random() % 255) / 255.0 alpha:1]
+//字体
+#define FONT(fontSize)          [UIFont systemFontOfSize:fontSize]
+#define SCALE_FL(length)        (SCREEN_WIDTH * (length) / 375.0)
+
+//默认
+#define DEFAULT_IMAGE                       nil
+#define MARGIN                              8
+#define METRICS                             @{@"DEFAULT_MARGIN": @15, @"MARGIN": @8, @"MARGIN_2": @4, @"ICON_WIDTH": @20}
+#define SCALE_L(length)                     (SCREEN_WIDTH >=375.0 ? (length) : (SCREEN_WIDTH * (length) / 375.0))
+#define DEFAULT_TIP_NO_DATA                 @"暂无数据"
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
+#define CURRENT_TIME                        [NSString stringWithFormat:@"%@", [NSNumber numberWithDouble:[[NSDate date] timeIntervalSince1970]*1000]]
+
+//尺寸
+#define SCREEN_WIDTH               [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT              [UIScreen mainScreen].bounds.size.height
+#define STATUSBAR_H                [UIApplication sharedApplication].statusBarFrame.size.height
+
+//字符串
+#define kUserTocken               @"userToken"
+#define kUserLoginName            @"kUserLoginName"
+#define kUserDataChanged          @"kUserDataChanged"
+#define kUserPolice               @"http://106.15.58.192:8081/privacyPolicy.html"
+#define USERDEFAULT               [NSUserDefaults standardUserDefaults]
+#define USER_TOKEN                [USERDEFAULT objectForKey:kUserTocken]
+
+
+
+//URL
+#define URL_REGISTE                 @"/api/rewrite/register"//注册
+#define URL_LOGIN                   @"/api/authenticate"//登陆
+#define URL_ITEMLIST                @"/api/rewrite/keyboxes"//所有项目 GET
+#define URL_ADDITEM                 @"/api/rewrite/keyboxes"//增加项目 POST
+#define URL_ITEMDELETE              @"/api/rewrite/keyboxes/"//删除项目 DELETE
+#define URL_ITEMEDITE               @"/api/rewrite/keyboxes/"//删除项目 PUT
+
+
+//正则
+#define REG_PHONE                   @"^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])[0-9]{8}$"

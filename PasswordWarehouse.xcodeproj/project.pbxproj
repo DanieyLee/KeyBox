@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81517CBD5924DD13AA9979D3 /* libPods-PasswordWarehouse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D496496B39C0588F8B9BEE54 /* libPods-PasswordWarehouse.a */; };
+		BA230333221B951800BA89B4 /* WSBiometricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230332221B951800BA89B4 /* WSBiometricViewController.m */; };
+		BA230336221BA05C00BA89B4 /* WSChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230335221BA05C00BA89B4 /* WSChangePasswordViewController.m */; };
+		BA23033A221BAD3600BA89B4 /* WSRegisteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230339221BAD3600BA89B4 /* WSRegisteViewController.m */; };
+		BA23033E221BAF7700BA89B4 /* NSObject+WSRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = BA23033D221BAF7700BA89B4 /* NSObject+WSRequestData.m */; };
+		BA230345221BD2F000BA89B4 /* WSPasswordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230344221BD2F000BA89B4 /* WSPasswordListViewController.m */; };
+		BA230348221BDC9A00BA89B4 /* WSAddPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230347221BDC9A00BA89B4 /* WSAddPasswordViewController.m */; };
+		BA23034B221BE2ED00BA89B4 /* WSTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA23034A221BE2ED00BA89B4 /* WSTextFieldView.m */; };
+		BA230358221BE3D300BA89B4 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230351221BE3D300BA89B4 /* UIView+Category.m */; };
+		BA230359221BE3D300BA89B4 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230353221BE3D300BA89B4 /* NSString+Category.m */; };
+		BA23035A221BE3D300BA89B4 /* UIFont+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230354221BE3D300BA89B4 /* UIFont+Category.m */; };
+		BA23035B221BE3D300BA89B4 /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230355221BE3D300BA89B4 /* NSDictionary+Category.m */; };
+		BA23035C221BE3D300BA89B4 /* NSAttributedString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230357221BE3D300BA89B4 /* NSAttributedString+Category.m */; };
+		BA23035F221BE4CC00BA89B4 /* WSTitleTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA23035E221BE4CC00BA89B4 /* WSTitleTextFieldTableViewCell.m */; };
+		BA230364221BE4EE00BA89B4 /* WSBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230362221BE4EE00BA89B4 /* WSBaseTableViewCell.m */; };
+		BA230365221BE4EE00BA89B4 /* WSBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230363221BE4EE00BA89B4 /* WSBaseTableView.m */; };
+		BA230368221BEE2100BA89B4 /* WSAlertControllerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA230367221BEE2000BA89B4 /* WSAlertControllerUtil.m */; };
+		BA28F8CF2215138B00AA35D0 /* WSMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA28F8CE2215138B00AA35D0 /* WSMineViewController.m */; };
+		BA28F8D3221513F300AA35D0 /* WSPasswordLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA28F8D2221513F300AA35D0 /* WSPasswordLoginViewController.m */; };
+		BA28F8E4221556DE00AA35D0 /* WSConfigeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA28F8E3221556DE00AA35D0 /* WSConfigeManager.m */; };
+		BA28F8E7221567FB00AA35D0 /* WSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA28F8E6221567FB00AA35D0 /* WSBaseViewController.m */; };
+		BA28F8EC221574BF00AA35D0 /* WSTouchIDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA28F8EB221574BF00AA35D0 /* WSTouchIDUtil.m */; };
+		BA2EC7D7221CE6DE00C5958A /* DatabaseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2EC7D5221CE6DE00C5958A /* DatabaseUtil.m */; };
+		BA2EC7D8221CE6DE00C5958A /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2EC7D6221CE6DE00C5958A /* DBManager.m */; };
+		BA2EC7DB221CE77900C5958A /* JSONUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2EC7DA221CE77900C5958A /* JSONUtil.m */; };
+		BA2EC7DE221CFE8200C5958A /* WSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2EC7DD221CFE8200C5958A /* WSBaseNavigationController.m */; };
+		BA2EC7E1221CFEE400C5958A /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2EC7E0221CFEE400C5958A /* UIImage+Category.m */; };
+		BA2EC7E4221D202300C5958A /* NSString+StringJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2EC7E2221D202300C5958A /* NSString+StringJudge.m */; };
+		BA4F823A221E3712009E745B /* ZAEmptyViewConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4F8232221E3712009E745B /* ZAEmptyViewConfig.m */; };
+		BA4F823B221E3712009E745B /* UIView+ShowEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4F8233221E3712009E745B /* UIView+ShowEmpty.m */; };
+		BA4F823C221E3712009E745B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4F8235221E3712009E745B /* UIView+Frame.m */; };
+		BA4F823D221E3712009E745B /* UIViewController+ShowEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4F8237221E3712009E745B /* UIViewController+ShowEmpty.m */; };
+		BA4F8240221E49E9009E745B /* WSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4F823E221E49E9009E745B /* WSWebViewController.m */; };
+		BA4F8242221E76E3009E745B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4F8241221E76E3009E745B /* Assets.xcassets */; };
+		BA5E5480222CB4040025001A /* WSBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5E547F222CB4040025001A /* WSBaseModel.m */; };
+		BA6743CA221D3C08005BD490 /* WSPasswordUploadUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6743C9221D3C08005BD490 /* WSPasswordUploadUtil.m */; };
+		BA87E7AB2223819900E474CE /* WSPasswordShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87E7AA2223819900E474CE /* WSPasswordShowAlertView.m */; };
+		BA87E7AE222381CC00E474CE /* ActionSheetWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87E7AD222381CC00E474CE /* ActionSheetWindow.m */; };
+		BA87E7B12223892B00E474CE /* NNCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87E7B02223892B00E474CE /* NNCustomButton.m */; };
+		BA87E7B42223893B00E474CE /* WSBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87E7B22223893B00E474CE /* WSBaseButton.m */; };
+		BA87E7BA2223B85900E474CE /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87E7B82223B85900E474CE /* MGSwipeButton.m */; };
+		BA87E7BB2223B85900E474CE /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA87E7B92223B85900E474CE /* MGSwipeTableCell.m */; };
+		BACD2FC1221FFE4B005CA77C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BACD2FC0221FFE4B005CA77C /* README.md */; };
+		BAE4C8E621D4E56200E16511 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE4C8E521D4E56200E16511 /* AppDelegate.m */; };
+		BAE4C8F421D4E56400E16511 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE4C8F321D4E56400E16511 /* main.m */; };
+		BAE4C90421D4ECD100E16511 /* WSMyPasswordListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE4C90321D4ECD100E16511 /* WSMyPasswordListTableViewCell.m */; };
+		BAE5CE6F2213A47C00D07EB5 /* WSIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE5CE6E2213A47C00D07EB5 /* WSIndexViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA230331221B951800BA89B4 /* WSBiometricViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSBiometricViewController.h; sourceTree = "<group>"; };
+		BA230332221B951800BA89B4 /* WSBiometricViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSBiometricViewController.m; sourceTree = "<group>"; };
+		BA230334221BA05C00BA89B4 /* WSChangePasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSChangePasswordViewController.h; sourceTree = "<group>"; };
+		BA230335221BA05C00BA89B4 /* WSChangePasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSChangePasswordViewController.m; sourceTree = "<group>"; };
+		BA230338221BAD3600BA89B4 /* WSRegisteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSRegisteViewController.h; sourceTree = "<group>"; };
+		BA230339221BAD3600BA89B4 /* WSRegisteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSRegisteViewController.m; sourceTree = "<group>"; };
+		BA23033C221BAF7700BA89B4 /* NSObject+WSRequestData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+WSRequestData.h"; sourceTree = "<group>"; };
+		BA23033D221BAF7700BA89B4 /* NSObject+WSRequestData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WSRequestData.m"; sourceTree = "<group>"; };
+		BA230343221BD2F000BA89B4 /* WSPasswordListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSPasswordListViewController.h; sourceTree = "<group>"; };
+		BA230344221BD2F000BA89B4 /* WSPasswordListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSPasswordListViewController.m; sourceTree = "<group>"; };
+		BA230346221BDC9A00BA89B4 /* WSAddPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSAddPasswordViewController.h; sourceTree = "<group>"; };
+		BA230347221BDC9A00BA89B4 /* WSAddPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSAddPasswordViewController.m; sourceTree = "<group>"; };
+		BA230349221BE2ED00BA89B4 /* WSTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTextFieldView.h; sourceTree = "<group>"; };
+		BA23034A221BE2ED00BA89B4 /* WSTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTextFieldView.m; sourceTree = "<group>"; };
+		BA23034E221BE3D300BA89B4 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		BA23034F221BE3D300BA89B4 /* UIFont+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Category.h"; sourceTree = "<group>"; };
+		BA230350221BE3D300BA89B4 /* NSAttributedString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Category.h"; sourceTree = "<group>"; };
+		BA230351221BE3D300BA89B4 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		BA230352221BE3D300BA89B4 /* NSDictionary+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Category.h"; sourceTree = "<group>"; };
+		BA230353221BE3D300BA89B4 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		BA230354221BE3D300BA89B4 /* UIFont+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Category.m"; sourceTree = "<group>"; };
+		BA230355221BE3D300BA89B4 /* NSDictionary+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Category.m"; sourceTree = "<group>"; };
+		BA230356221BE3D300BA89B4 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		BA230357221BE3D300BA89B4 /* NSAttributedString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Category.m"; sourceTree = "<group>"; };
+		BA23035D221BE4CC00BA89B4 /* WSTitleTextFieldTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSTitleTextFieldTableViewCell.h; sourceTree = "<group>"; };
+		BA23035E221BE4CC00BA89B4 /* WSTitleTextFieldTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSTitleTextFieldTableViewCell.m; sourceTree = "<group>"; };
+		BA230360221BE4EE00BA89B4 /* WSBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseTableView.h; sourceTree = "<group>"; };
+		BA230361221BE4EE00BA89B4 /* WSBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseTableViewCell.h; sourceTree = "<group>"; };
+		BA230362221BE4EE00BA89B4 /* WSBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseTableViewCell.m; sourceTree = "<group>"; };
+		BA230363221BE4EE00BA89B4 /* WSBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseTableView.m; sourceTree = "<group>"; };
+		BA230366221BEE2000BA89B4 /* WSAlertControllerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSAlertControllerUtil.h; sourceTree = "<group>"; };
+		BA230367221BEE2000BA89B4 /* WSAlertControllerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSAlertControllerUtil.m; sourceTree = "<group>"; };
+		BA28F8CD2215138B00AA35D0 /* WSMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSMineViewController.h; sourceTree = "<group>"; };
+		BA28F8CE2215138B00AA35D0 /* WSMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSMineViewController.m; sourceTree = "<group>"; };
+		BA28F8D1221513F300AA35D0 /* WSPasswordLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSPasswordLoginViewController.h; sourceTree = "<group>"; };
+		BA28F8D2221513F300AA35D0 /* WSPasswordLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSPasswordLoginViewController.m; sourceTree = "<group>"; };
+		BA28F8E2221556DE00AA35D0 /* WSConfigeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSConfigeManager.h; sourceTree = "<group>"; };
+		BA28F8E3221556DE00AA35D0 /* WSConfigeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSConfigeManager.m; sourceTree = "<group>"; };
+		BA28F8E5221567FB00AA35D0 /* WSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseViewController.h; sourceTree = "<group>"; };
+		BA28F8E6221567FB00AA35D0 /* WSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseViewController.m; sourceTree = "<group>"; };
+		BA28F8EA221574BF00AA35D0 /* WSTouchIDUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSTouchIDUtil.h; sourceTree = "<group>"; };
+		BA28F8EB221574BF00AA35D0 /* WSTouchIDUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSTouchIDUtil.m; sourceTree = "<group>"; };
+		BA2EC7D3221CE6DE00C5958A /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		BA2EC7D4221CE6DE00C5958A /* DatabaseUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseUtil.h; sourceTree = "<group>"; };
+		BA2EC7D5221CE6DE00C5958A /* DatabaseUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseUtil.m; sourceTree = "<group>"; };
+		BA2EC7D6221CE6DE00C5958A /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		BA2EC7D9221CE77900C5958A /* JSONUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONUtil.h; sourceTree = "<group>"; };
+		BA2EC7DA221CE77900C5958A /* JSONUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONUtil.m; sourceTree = "<group>"; };
+		BA2EC7DC221CFE8200C5958A /* WSBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseNavigationController.h; sourceTree = "<group>"; };
+		BA2EC7DD221CFE8200C5958A /* WSBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseNavigationController.m; sourceTree = "<group>"; };
+		BA2EC7DF221CFEE400C5958A /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		BA2EC7E0221CFEE400C5958A /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		BA2EC7E2221D202300C5958A /* NSString+StringJudge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringJudge.m"; sourceTree = "<group>"; };
+		BA2EC7E3221D202300C5958A /* NSString+StringJudge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringJudge.h"; sourceTree = "<group>"; };
+		BA4F8232221E3712009E745B /* ZAEmptyViewConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAEmptyViewConfig.m; sourceTree = "<group>"; };
+		BA4F8233221E3712009E745B /* UIView+ShowEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ShowEmpty.m"; sourceTree = "<group>"; };
+		BA4F8234221E3712009E745B /* UIViewController+ShowEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ShowEmpty.h"; sourceTree = "<group>"; };
+		BA4F8235221E3712009E745B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BA4F8236221E3712009E745B /* ZAEmptyViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAEmptyViewConfig.h; sourceTree = "<group>"; };
+		BA4F8237221E3712009E745B /* UIViewController+ShowEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ShowEmpty.m"; sourceTree = "<group>"; };
+		BA4F8238221E3712009E745B /* UIView+ShowEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ShowEmpty.h"; sourceTree = "<group>"; };
+		BA4F8239221E3712009E745B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BA4F823E221E49E9009E745B /* WSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSWebViewController.m; sourceTree = "<group>"; };
+		BA4F823F221E49E9009E745B /* WSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSWebViewController.h; sourceTree = "<group>"; };
+		BA4F8241221E76E3009E745B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA5E547E222CB4040025001A /* WSBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseModel.h; sourceTree = "<group>"; };
+		BA5E547F222CB4040025001A /* WSBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseModel.m; sourceTree = "<group>"; };
+		BA6743C8221D3C08005BD490 /* WSPasswordUploadUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSPasswordUploadUtil.h; sourceTree = "<group>"; };
+		BA6743C9221D3C08005BD490 /* WSPasswordUploadUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSPasswordUploadUtil.m; sourceTree = "<group>"; };
+		BA87E7A92223819900E474CE /* WSPasswordShowAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSPasswordShowAlertView.h; sourceTree = "<group>"; };
+		BA87E7AA2223819900E474CE /* WSPasswordShowAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSPasswordShowAlertView.m; sourceTree = "<group>"; };
+		BA87E7AC222381CC00E474CE /* ActionSheetWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetWindow.h; sourceTree = "<group>"; };
+		BA87E7AD222381CC00E474CE /* ActionSheetWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetWindow.m; sourceTree = "<group>"; };
+		BA87E7AF2223892B00E474CE /* NNCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCustomButton.h; sourceTree = "<group>"; };
+		BA87E7B02223892B00E474CE /* NNCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNCustomButton.m; sourceTree = "<group>"; };
+		BA87E7B22223893B00E474CE /* WSBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBaseButton.m; sourceTree = "<group>"; };
+		BA87E7B32223893B00E474CE /* WSBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBaseButton.h; sourceTree = "<group>"; };
+		BA87E7B62223B85900E474CE /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeTableCell.h; sourceTree = "<group>"; };
+		BA87E7B72223B85900E474CE /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSwipeButton.h; sourceTree = "<group>"; };
+		BA87E7B82223B85900E474CE /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeButton.m; sourceTree = "<group>"; };
+		BA87E7B92223B85900E474CE /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSwipeTableCell.m; sourceTree = "<group>"; };
+		BACD2FC0221FFE4B005CA77C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BAE4C8E121D4E56200E16511 /* PasswordWarehouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordWarehouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE4C8E421D4E56200E16511 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAE4C8E521D4E56200E16511 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAE4C8F221D4E56400E16511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE4C8F321D4E56400E16511 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAE4C90121D4EA3F00E16511 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BAE4C90221D4ECD100E16511 /* WSMyPasswordListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSMyPasswordListTableViewCell.h; sourceTree = "<group>"; };
+		BAE4C90321D4ECD100E16511 /* WSMyPasswordListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSMyPasswordListTableViewCell.m; sourceTree = "<group>"; };
+		BAE5CE6D2213A47C00D07EB5 /* WSIndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSIndexViewController.h; sourceTree = "<group>"; };
+		BAE5CE6E2213A47C00D07EB5 /* WSIndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSIndexViewController.m; sourceTree = "<group>"; };
+		D0B1301F7C36CBC992866E2E /* Pods-PasswordWarehouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordWarehouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordWarehouse/Pods-PasswordWarehouse.debug.xcconfig"; sourceTree = "<group>"; };
+		D496496B39C0588F8B9BEE54 /* libPods-PasswordWarehouse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PasswordWarehouse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF505A9E9983D94D1911309A /* Pods-PasswordWarehouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordWarehouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordWarehouse/Pods-PasswordWarehouse.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE4C8DE21D4E56200E16511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81517CBD5924DD13AA9979D3 /* libPods-PasswordWarehouse.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019860A05269B04D5487B39D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D496496B39C0588F8B9BEE54 /* libPods-PasswordWarehouse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA230337221BA13100BA89B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA23034C221BE2EF00BA89B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA87E7B52223B84B00E474CE /* SwipeButton */,
+				BA87E7AC222381CC00E474CE /* ActionSheetWindow.h */,
+				BA87E7AD222381CC00E474CE /* ActionSheetWindow.m */,
+				BA230360221BE4EE00BA89B4 /* WSBaseTableView.h */,
+				BA230363221BE4EE00BA89B4 /* WSBaseTableView.m */,
+				BA230361221BE4EE00BA89B4 /* WSBaseTableViewCell.h */,
+				BA230362221BE4EE00BA89B4 /* WSBaseTableViewCell.m */,
+				BA230349221BE2ED00BA89B4 /* WSTextFieldView.h */,
+				BA23034A221BE2ED00BA89B4 /* WSTextFieldView.m */,
+				BA87E7AF2223892B00E474CE /* NNCustomButton.h */,
+				BA87E7B02223892B00E474CE /* NNCustomButton.m */,
+				BA87E7B32223893B00E474CE /* WSBaseButton.h */,
+				BA87E7B22223893B00E474CE /* WSBaseButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA23034D221BE3D300BA89B4 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				BA2EC7E3221D202300C5958A /* NSString+StringJudge.h */,
+				BA2EC7E2221D202300C5958A /* NSString+StringJudge.m */,
+				BA2EC7DF221CFEE400C5958A /* UIImage+Category.h */,
+				BA2EC7E0221CFEE400C5958A /* UIImage+Category.m */,
+				BA23034E221BE3D300BA89B4 /* NSString+Category.h */,
+				BA23034F221BE3D300BA89B4 /* UIFont+Category.h */,
+				BA230350221BE3D300BA89B4 /* NSAttributedString+Category.h */,
+				BA230351221BE3D300BA89B4 /* UIView+Category.m */,
+				BA230352221BE3D300BA89B4 /* NSDictionary+Category.h */,
+				BA230353221BE3D300BA89B4 /* NSString+Category.m */,
+				BA230354221BE3D300BA89B4 /* UIFont+Category.m */,
+				BA230355221BE3D300BA89B4 /* NSDictionary+Category.m */,
+				BA230356221BE3D300BA89B4 /* UIView+Category.h */,
+				BA230357221BE3D300BA89B4 /* NSAttributedString+Category.m */,
+				BA23033C221BAF7700BA89B4 /* NSObject+WSRequestData.h */,
+				BA23033D221BAF7700BA89B4 /* NSObject+WSRequestData.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		BA28F8D0221513C600AA35D0 /* LoginAndRegiste */ = {
+			isa = PBXGroup;
+			children = (
+				BA230337221BA13100BA89B4 /* Views */,
+				BA28F8D1221513F300AA35D0 /* WSPasswordLoginViewController.h */,
+				BA28F8D2221513F300AA35D0 /* WSPasswordLoginViewController.m */,
+				BA230338221BAD3600BA89B4 /* WSRegisteViewController.h */,
+				BA230339221BAD3600BA89B4 /* WSRegisteViewController.m */,
+				BA230331221B951800BA89B4 /* WSBiometricViewController.h */,
+				BA230332221B951800BA89B4 /* WSBiometricViewController.m */,
+				BA230334221BA05C00BA89B4 /* WSChangePasswordViewController.h */,
+				BA230335221BA05C00BA89B4 /* WSChangePasswordViewController.m */,
+			);
+			path = LoginAndRegiste;
+			sourceTree = "<group>";
+		};
+		BA28F8E1221556BC00AA35D0 /* Confige */ = {
+			isa = PBXGroup;
+			children = (
+				BA28F8E2221556DE00AA35D0 /* WSConfigeManager.h */,
+				BA28F8E3221556DE00AA35D0 /* WSConfigeManager.m */,
+			);
+			path = Confige;
+			sourceTree = "<group>";
+		};
+		BA28F8E82215683600AA35D0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F823F221E49E9009E745B /* WSWebViewController.h */,
+				BA4F823E221E49E9009E745B /* WSWebViewController.m */,
+				BA28F8E5221567FB00AA35D0 /* WSBaseViewController.h */,
+				BA28F8E6221567FB00AA35D0 /* WSBaseViewController.m */,
+				BA2EC7DC221CFE8200C5958A /* WSBaseNavigationController.h */,
+				BA2EC7DD221CFE8200C5958A /* WSBaseNavigationController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BA2EC7D2221CE6DE00C5958A /* DBManage */ = {
+			isa = PBXGroup;
+			children = (
+				BA2EC7D3221CE6DE00C5958A /* DBManager.h */,
+				BA2EC7D6221CE6DE00C5958A /* DBManager.m */,
+				BA2EC7D4221CE6DE00C5958A /* DatabaseUtil.h */,
+				BA2EC7D5221CE6DE00C5958A /* DatabaseUtil.m */,
+				BA2EC7D9221CE77900C5958A /* JSONUtil.h */,
+				BA2EC7DA221CE77900C5958A /* JSONUtil.m */,
+			);
+			path = DBManage;
+			sourceTree = "<group>";
+		};
+		BA4F8231221E3712009E745B /* ViewShowEmpty */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F8232221E3712009E745B /* ZAEmptyViewConfig.m */,
+				BA4F8233221E3712009E745B /* UIView+ShowEmpty.m */,
+				BA4F8234221E3712009E745B /* UIViewController+ShowEmpty.h */,
+				BA4F8235221E3712009E745B /* UIView+Frame.m */,
+				BA4F8236221E3712009E745B /* ZAEmptyViewConfig.h */,
+				BA4F8237221E3712009E745B /* UIViewController+ShowEmpty.m */,
+				BA4F8238221E3712009E745B /* UIView+ShowEmpty.h */,
+				BA4F8239221E3712009E745B /* UIView+Frame.h */,
+			);
+			path = ViewShowEmpty;
+			sourceTree = "<group>";
+		};
+		BA87E7B52223B84B00E474CE /* SwipeButton */ = {
+			isa = PBXGroup;
+			children = (
+				BA87E7B72223B85900E474CE /* MGSwipeButton.h */,
+				BA87E7B82223B85900E474CE /* MGSwipeButton.m */,
+				BA87E7B62223B85900E474CE /* MGSwipeTableCell.h */,
+				BA87E7B92223B85900E474CE /* MGSwipeTableCell.m */,
+			);
+			path = SwipeButton;
+			sourceTree = "<group>";
+		};
+		BA98447921D5B6C5000D65CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BAE4C8D821D4E56200E16511 = {
+			isa = PBXGroup;
+			children = (
+				BACD2FC0221FFE4B005CA77C /* README.md */,
+				BAE4C8E321D4E56200E16511 /* PasswordWarehouse */,
+				BAE4C8E221D4E56200E16511 /* Products */,
+				EFF172EF2F7681A500490C62 /* Pods */,
+				019860A05269B04D5487B39D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE4C8E221D4E56200E16511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE4C8E121D4E56200E16511 /* PasswordWarehouse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE4C8E321D4E56200E16511 /* PasswordWarehouse */ = {
+			isa = PBXGroup;
+			children = (
+				BAE5CE6A2213A41000D07EB5 /* Base */,
+				BAE4C8FA21D4E81200E16511 /* Class */,
+				BAE4C8E421D4E56200E16511 /* AppDelegate.h */,
+				BAE4C8E521D4E56200E16511 /* AppDelegate.m */,
+				BAE4C8F221D4E56400E16511 /* Info.plist */,
+				BAE4C8F321D4E56400E16511 /* main.m */,
+				BAE4C90121D4EA3F00E16511 /* PrefixHeader.pch */,
+				BA4F8241221E76E3009E745B /* Assets.xcassets */,
+			);
+			path = PasswordWarehouse;
+			sourceTree = "<group>";
+		};
+		BAE4C8FA21D4E81200E16511 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				BA28F8E1221556BC00AA35D0 /* Confige */,
+				BA28F8D0221513C600AA35D0 /* LoginAndRegiste */,
+				BAE5CE6B2213A44800D07EB5 /* Index */,
+				BAE5CE692213A3FC00D07EB5 /* Home */,
+				BAE5CE682213A3EA00D07EB5 /* Setting */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		BAE4C8FB21D4E82E00E16511 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA230343221BD2F000BA89B4 /* WSPasswordListViewController.h */,
+				BA230344221BD2F000BA89B4 /* WSPasswordListViewController.m */,
+				BA230346221BDC9A00BA89B4 /* WSAddPasswordViewController.h */,
+				BA230347221BDC9A00BA89B4 /* WSAddPasswordViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BAE4C90021D4E98B00E16511 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BAE4C90221D4ECD100E16511 /* WSMyPasswordListTableViewCell.h */,
+				BAE4C90321D4ECD100E16511 /* WSMyPasswordListTableViewCell.m */,
+				BA23035D221BE4CC00BA89B4 /* WSTitleTextFieldTableViewCell.h */,
+				BA23035E221BE4CC00BA89B4 /* WSTitleTextFieldTableViewCell.m */,
+				BA87E7A92223819900E474CE /* WSPasswordShowAlertView.h */,
+				BA87E7AA2223819900E474CE /* WSPasswordShowAlertView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BAE4C90521D4EF6600E16511 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F8231221E3712009E745B /* ViewShowEmpty */,
+				BA28F8EA221574BF00AA35D0 /* WSTouchIDUtil.h */,
+				BA28F8EB221574BF00AA35D0 /* WSTouchIDUtil.m */,
+				BA230366221BEE2000BA89B4 /* WSAlertControllerUtil.h */,
+				BA230367221BEE2000BA89B4 /* WSAlertControllerUtil.m */,
+				BA6743C8221D3C08005BD490 /* WSPasswordUploadUtil.h */,
+				BA6743C9221D3C08005BD490 /* WSPasswordUploadUtil.m */,
+				BA5E547E222CB4040025001A /* WSBaseModel.h */,
+				BA5E547F222CB4040025001A /* WSBaseModel.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BAE5CE682213A3EA00D07EB5 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BA28F8CD2215138B00AA35D0 /* WSMineViewController.h */,
+				BA28F8CE2215138B00AA35D0 /* WSMineViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		BAE5CE692213A3FC00D07EB5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA98447921D5B6C5000D65CE /* Model */,
+				BAE4C90021D4E98B00E16511 /* Views */,
+				BAE4C8FB21D4E82E00E16511 /* ViewControllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BAE5CE6A2213A41000D07EB5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BA2EC7D2221CE6DE00C5958A /* DBManage */,
+				BA23034D221BE3D300BA89B4 /* Categorys */,
+				BA23034C221BE2EF00BA89B4 /* Views */,
+				BA28F8E82215683600AA35D0 /* ViewController */,
+				BAE4C90521D4EF6600E16511 /* Utils */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BAE5CE6B2213A44800D07EB5 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				BAE5CE6D2213A47C00D07EB5 /* WSIndexViewController.h */,
+				BAE5CE6E2213A47C00D07EB5 /* WSIndexViewController.m */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		EFF172EF2F7681A500490C62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0B1301F7C36CBC992866E2E /* Pods-PasswordWarehouse.debug.xcconfig */,
+				EF505A9E9983D94D1911309A /* Pods-PasswordWarehouse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE4C8E021D4E56200E16511 /* PasswordWarehouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE4C8F721D4E56400E16511 /* Build configuration list for PBXNativeTarget "PasswordWarehouse" */;
+			buildPhases = (
+				10F60CF5F245EF1089C5BD08 /* [CP] Check Pods Manifest.lock */,
+				BAE4C8DD21D4E56200E16511 /* Sources */,
+				BAE4C8DE21D4E56200E16511 /* Frameworks */,
+				BAE4C8DF21D4E56200E16511 /* Resources */,
+				4B11D0230B06ECDA31B170F2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordWarehouse;
+			productName = PasswordWarehouse;
+			productReference = BAE4C8E121D4E56200E16511 /* PasswordWarehouse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE4C8D921D4E56200E16511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WS;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = WeiSen;
+				TargetAttributes = {
+					BAE4C8E021D4E56200E16511 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = BAE4C8DC21D4E56200E16511 /* Build configuration list for PBXProject "PasswordWarehouse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE4C8D821D4E56200E16511;
+			productRefGroup = BAE4C8E221D4E56200E16511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE4C8E021D4E56200E16511 /* PasswordWarehouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE4C8DF21D4E56200E16511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACD2FC1221FFE4B005CA77C /* README.md in Resources */,
+				BA4F8242221E76E3009E745B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10F60CF5F245EF1089C5BD08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordWarehouse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B11D0230B06ECDA31B170F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PasswordWarehouse/Pods-PasswordWarehouse-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PasswordWarehouse/Pods-PasswordWarehouse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE4C8DD21D4E56200E16511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2EC7D7221CE6DE00C5958A /* DatabaseUtil.m in Sources */,
+				BA87E7AE222381CC00E474CE /* ActionSheetWindow.m in Sources */,
+				BA2EC7DE221CFE8200C5958A /* WSBaseNavigationController.m in Sources */,
+				BA87E7B42223893B00E474CE /* WSBaseButton.m in Sources */,
+				BA2EC7E1221CFEE400C5958A /* UIImage+Category.m in Sources */,
+				BA23034B221BE2ED00BA89B4 /* WSTextFieldView.m in Sources */,
+				BA23035C221BE3D300BA89B4 /* NSAttributedString+Category.m in Sources */,
+				BA230333221B951800BA89B4 /* WSBiometricViewController.m in Sources */,
+				BAE4C90421D4ECD100E16511 /* WSMyPasswordListTableViewCell.m in Sources */,
+				BAE5CE6F2213A47C00D07EB5 /* WSIndexViewController.m in Sources */,
+				BA23033E221BAF7700BA89B4 /* NSObject+WSRequestData.m in Sources */,
+				BA28F8EC221574BF00AA35D0 /* WSTouchIDUtil.m in Sources */,
+				BA87E7BA2223B85900E474CE /* MGSwipeButton.m in Sources */,
+				BA4F823C221E3712009E745B /* UIView+Frame.m in Sources */,
+				BA23035A221BE3D300BA89B4 /* UIFont+Category.m in Sources */,
+				BA2EC7D8221CE6DE00C5958A /* DBManager.m in Sources */,
+				BA6743CA221D3C08005BD490 /* WSPasswordUploadUtil.m in Sources */,
+				BAE4C8F421D4E56400E16511 /* main.m in Sources */,
+				BA230359221BE3D300BA89B4 /* NSString+Category.m in Sources */,
+				BA87E7AB2223819900E474CE /* WSPasswordShowAlertView.m in Sources */,
+				BA4F823D221E3712009E745B /* UIViewController+ShowEmpty.m in Sources */,
+				BA28F8CF2215138B00AA35D0 /* WSMineViewController.m in Sources */,
+				BAE4C8E621D4E56200E16511 /* AppDelegate.m in Sources */,
+				BA23035F221BE4CC00BA89B4 /* WSTitleTextFieldTableViewCell.m in Sources */,
+				BA230368221BEE2100BA89B4 /* WSAlertControllerUtil.m in Sources */,
+				BA230336221BA05C00BA89B4 /* WSChangePasswordViewController.m in Sources */,
+				BA5E5480222CB4040025001A /* WSBaseModel.m in Sources */,
+				BA4F823A221E3712009E745B /* ZAEmptyViewConfig.m in Sources */,
+				BA4F823B221E3712009E745B /* UIView+ShowEmpty.m in Sources */,
+				BA87E7BB2223B85900E474CE /* MGSwipeTableCell.m in Sources */,
+				BA230348221BDC9A00BA89B4 /* WSAddPasswordViewController.m in Sources */,
+				BA230345221BD2F000BA89B4 /* WSPasswordListViewController.m in Sources */,
+				BA87E7B12223892B00E474CE /* NNCustomButton.m in Sources */,
+				BA2EC7DB221CE77900C5958A /* JSONUtil.m in Sources */,
+				BA230365221BE4EE00BA89B4 /* WSBaseTableView.m in Sources */,
+				BA4F8240221E49E9009E745B /* WSWebViewController.m in Sources */,
+				BA28F8D3221513F300AA35D0 /* WSPasswordLoginViewController.m in Sources */,
+				BA28F8E7221567FB00AA35D0 /* WSBaseViewController.m in Sources */,
+				BA23035B221BE3D300BA89B4 /* NSDictionary+Category.m in Sources */,
+				BA230364221BE4EE00BA89B4 /* WSBaseTableViewCell.m in Sources */,
+				BA2EC7E4221D202300C5958A /* NSString+StringJudge.m in Sources */,
+				BA28F8E4221556DE00AA35D0 /* WSConfigeManager.m in Sources */,
+				BA230358221BE3D300BA89B4 /* UIView+Category.m in Sources */,
+				BA23033A221BAD3600BA89B4 /* WSRegisteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BAE4C8F521D4E56400E16511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAE4C8F621D4E56400E16511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE4C8F821D4E56400E16511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B1301F7C36CBC992866E2E /* Pods-PasswordWarehouse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3HVC9Q3QM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PasswordWarehouse/PrefixHeader.pch";
+				INFOPLIST_FILE = PasswordWarehouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yfpw.PasswordBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		BAE4C8F921D4E56400E16511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF505A9E9983D94D1911309A /* Pods-PasswordWarehouse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G3HVC9Q3QM;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PasswordWarehouse/PrefixHeader.pch";
+				INFOPLIST_FILE = PasswordWarehouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yfpw.PasswordBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE4C8DC21D4E56200E16511 /* Build configuration list for PBXProject "PasswordWarehouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE4C8F521D4E56400E16511 /* Debug */,
+				BAE4C8F621D4E56400E16511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE4C8F721D4E56400E16511 /* Build configuration list for PBXNativeTarget "PasswordWarehouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE4C8F821D4E56400E16511 /* Debug */,
+				BAE4C8F921D4E56400E16511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE4C8D921D4E56200E16511 /* Project object */;
+}
